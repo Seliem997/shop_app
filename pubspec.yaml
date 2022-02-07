@@ -29,10 +29,16 @@ environment:
 dependencies:
   dio: ^4.0.4
   flutter_bloc: ^8.0.0
+  flutter_conditional_rendering: ^2.0.0
+#  fluttertoast: ^8.0.8
+  fluttertoast: ^8.0.1-nullsafety.0
   shared_preferences: ^2.0.11
   bloc: ^8.0.1
   smooth_page_indicator: ^1.0.0+2
   sizer: ^2.0.15
+  carousel_slider: ^4.0.0
+  conditional_builder_null_safety: ^0.0.6
+
   flutter:
     sdk: flutter
 

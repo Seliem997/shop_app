@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:shop_app/shared/styles/colors.dart';
 
 
 ThemeData lightTheme= ThemeData(
@@ -19,7 +20,7 @@ ThemeData lightTheme= ThemeData(
     elevation: 0.0,
   ),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-    selectedItemColor: Colors.deepOrange,
+    selectedItemColor: kDefaultColor,
     unselectedItemColor: Colors.grey,
     elevation: 20.0,
     type: BottomNavigationBarType.fixed,
@@ -61,7 +62,7 @@ ThemeData darkTheme= ThemeData(
   ),
 
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-      selectedItemColor: Colors.deepOrange,
+      selectedItemColor: kDefaultColor,
       unselectedItemColor: Colors.grey,
       elevation: 20.0,
       type: BottomNavigationBarType.fixed,
